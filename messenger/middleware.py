@@ -33,10 +33,3 @@ class XsSharing(object):
                 ",".join(XS_SHARING_ALLOWED_METHODS)
             return response
         return None
-
-    def process_response(self, request, response):
-        response['Access-Control-Allow-Origin'] = \
-            XS_SHARING_ALLOWED_ORIGINS
-        response['Access-Control-Allow-Methods'] = \
-            ",".join(XS_SHARING_ALLOWED_METHODS)
-        return response
