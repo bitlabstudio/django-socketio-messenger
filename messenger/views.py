@@ -18,4 +18,4 @@ def broadcast_channel(request, *args, **kwargs):
         socketio_broadcast_channel(message, channel)
     except NoSocket:
         pass
-    return HttpResponse
+    return HttpResponse("Success", content_type="text/plain")
