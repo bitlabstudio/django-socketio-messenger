@@ -1,3 +1,10 @@
+Important
+=========
+
+This app has been discontinued and is no longer maintained.
+
+*DISCONTINUED* 
+
 Django Socketio Messenger
 =========================
 
